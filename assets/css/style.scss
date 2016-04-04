@@ -1,0 +1,48 @@
+header {
+	h1 {
+		small {
+			display: block;
+			margin-top: 0.3em;
+		}
+	}
+	.jumbotron {
+		max-width: 80%;
+		min-height: 500px;
+		background-image: url("../images/tribute-image.jpg");
+		background-size: cover;
+		background-position: center;
+		h2 {
+			margin: 3em 0 0 1.2em;
+			small {
+				display: block;
+				margin-top: 0.125em;
+			}
+		}
+	}
+}
+
+#timeline {
+	h3 {
+		margin-bottom: 1.5em;
+	}
+
+	dl {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		dt + dd {
+			margin-bottom: 1em;
+		}
+	}
+}
+
+#quote {
+	margin: 10em;
+}
+
+#information {
+	.info {
+		width: 33.333%;
+		margin: 0 auto;
+	}
+}
